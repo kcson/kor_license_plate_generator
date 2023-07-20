@@ -26,7 +26,7 @@ class ImageGenerator:
         self.new_plate5 = cv2.imread("new_plate5.png")
         self.new_plate6 = cv2.imread("new_plate6.png")
         self.new_plate7 = cv2.imread("new_plate7.png")
-        self.new_plate8 = cv2.imread("new_plate8.png")
+        # self.new_plate8 = cv2.imread("new_plate8.png")
 
         # loading Number black number
         file_path = "./num/"
@@ -997,9 +997,9 @@ print("Type 6 finish")
 A.Type_7(num_img, save=Save)
 print("Type 7 finish")
 # Type 7 완료 2020.08.20.17:56
-A.Type_8(num_img, save=Save)
-print("Type 8 finish")
-# Type 8 완료 2020.08.20.18:28
-A.Type_8_1(num_img, save=Save)
-print("Type 8_1 finish")
+# A.Type_8(num_img, save=Save)
+# print("Type 8 finish")
+# # Type 8 완료 2020.08.20.18:28
+# A.Type_8_1(num_img, save=Save)
+# print("Type 8_1 finish")
 
